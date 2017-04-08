@@ -1,0 +1,29 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+    width:340px;
+    height:320px;
+    margin:10px auto;
+    padding-left:10px;
+    padding-top:20px;
+    border:2px solid #ccc;
+    border-radius: 10%;
+}
+.cells {
+    display: block;
+    float:left;
+    width:80px;
+    height:80px;
+    line-height:80px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border:2px solid #ccc;
+    color:#777;
+    text-decoration: none;
+    font-size: 60px;
+    //border-radius: 50%;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>井字棋-牛玉磊</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <style>
+    html, body{margin: 0;padding: 0;}
+    .container {width:340px;height:310px;padding-left:10px;padding-top:20px;border:2px solid #ccc;border-radius: 10%;position: absolute;left:50%;top:50%;margin-left: -170px;margin-top: -155px;}
+    .cells {display: block;float:left;width:80px;height:80px;line-height:80px;margin-left: 20px;margin-bottom: 20px;border:2px solid #ccc;color:#777;text-decoration: none;font-size: 60px;text-align: center;}
+    @media (min-device-width : 320px) and (max-device-width : 660px) and (-webkit-min-device-pixel-ratio : 2){
+      .container {width:90%;height:320px;padding-left:0px;padding-top:20px;border:2px solid #ccc;border-radius: 10%;}
+      .cells {display: block;float:left;width:24%;height:80px;line-height:80px;margin-left: 20px;margin-bottom: 20px;border:2px solid #ccc;color:#777;text-decoration: none;font-size: 60px;text-align: center;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+    }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <a href="javascript:;" class="cells" id="cell-0-0"></a>
+        <a href="javascript:;" class="cells" id="cell-0-1"></a>
+        <a href="javascript:;" class="cells" id="cell-0-2"></a>
+        <a href="javascript:;" class="cells" id="cell-1-0"></a>
+        <a href="javascript:;" class="cells" id="cell-1-1"></a>
+        <a href="javascript:;" class="cells" id="cell-1-2"></a>
+        <a href="javascript:;" class="cells" id="cell-2-0"></a>
+        <a href="javascript:;" class="cells" id="cell-2-1"></a>
+        <a href="javascript:;" class="cells" id="cell-2-2"></a>
+    </div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
+
+
+<!--
+  每个元素加ID便于二维数组使用
+  根据ID获取九宫格元素
+  给每个元素加点击事件
+  元素赋上图标
+  判断输赢
+  赢完调取重新开始
+ -->
