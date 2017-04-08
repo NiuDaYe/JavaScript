@@ -1,0 +1,115 @@
+body{font-family: "Shree Devanagari 714"}
+.w1000{width: 1000px;margin: 0 auto;}
+.w900{width: 900px;margin:0 auto;}
+.w800{width: 800px;margin:0 auto;}
+.nav{margin-top: 24px;}
+.nav .logo img{width: 55px;margin-right: 10px;}
+.nav .logo span{font-size: 15px;margin-top: 2px;}
+.nav .navLength{margin-top: 3px;}
+.nav .navLength li{float: left;height: 30px;line-height: 30px;margin-right: 50px;font-size: 15px;}
+.nav .navLength li a{color: #000;display: block;height: 25px;line-height: 26px;width: 80px;padding: 0 4px;border-radius: 5px;text-align: center;}
+.nav .navLength li a.active{background: #000;color: #fff;}
+.nav .navLength li a img{width: 50px;}
+/*.footer{width: 100%;margin-top: 140px;}
+.footer img{width: 100%;}*/
+.logo{margin-left: 50px;}
+
+.footer{width: 100%;margin-top: 50px;}
+.footer img{width: 300px;float:left;margin:0 0px;}
+.footer2 img{width: 105px;margin:0 0px;}
+.line {width:100%;height:15px;background:#231815;overflow:hidden;margin-top: -10px;}
+/*公用头部尾部 end*/
+
+
+/*首页 --关于我们 star*/
+.contTopBorder{margin-top: 62px;}
+.contTopBorder .p0{font-size: 30px!important;margin-bottom: 20px;}
+.contTopBorder .contTopLeft{padding-left: 64px;width: 505px;padding-top: 50px;}
+.contTopBorder .contTopLeft p{font-size: 15px;line-height: 25px;}
+.contTopBorder .contTopLeft p .span1{font-size: 44px;}
+.contTopBorder .contTopRight{margin-right: 42px;margin-top: 42px;}
+.winBg{width:100%;margin-top: 96px;position: relative;height: 500px;overflow: hidden;}
+.winBg .bgTxet{position: absolute;width:100%;top:120px;left:0;width: 100%;}
+.winBg .bgTxet p{width: 100%;text-align: center;color:#fff;font-size: 15px;line-height: 25px;}
+.winBg .bgTxet p.p6 img{width: 80px;}
+.winBg .bgTxet p.pBottom{margin-top: 46px;margin-bottom: 44px;}
+.contBottom{text-align: center;position: relative;margin-top: 40px;margin-bottom: 60px;}
+.contBottom img{width: 90px;}
+.contBottom .hire{margin-bottom: 49px;}
+.contBottom p{font-size: 15px;line-height: 43px;}
+.contTopBorder .contTopRight img{width: 310px;}
+
+
+.winBg img.win1{height: 500px;width: 100%;}
+.member{margin-top: 120px;}
+.member dl{float: left;width: 450px;margin-bottom: 50px;font-size: 14px;}
+.member dt{margin-bottom: 15px;}
+.member .Work{margin-bottom: 32px;font-size: 30px;position: relative;}
+.member .Work span{position: absolute;width: 30px;height: 1px;background: #000;left:0;top:-18px;}
+
+
+.members{margin-top: 74px;}
+.members dl{float: left;width: 400px;margin-bottom: 50px;font-size: 14px;}
+.members dt{margin-bottom: 15px;}
+.members dd{float: left;margin-right: 75px;}
+.members dd.dd1{width: 45px;}
+.members dd img{width: 114px;}
+.members .Work{margin-bottom: 32px;font-size: 30px;position: relative;}
+.members .Work span{position: absolute;width: 30px;height: 1px;background: #000;left:0;top:-18px;}
+
+
+.winBg img{-webkit-transition: all ease 1s;
+	transition: all ease 1s}
+
+.winBg:hover img{
+	transform: scale(1.1, 1.1);
+  	transition: 1s transform;
+  	-webkit-transform: scale(1.1, 1.1);
+  	-webkit-transition: 1s transform;
+}
+
+
+.thisBig{
+	transform: scale(1.1, 1.1);
+  	transition: 1s transform;
+  	-webkit-transform: scale(1.1, 1.1);
+  	-webkit-transition: 1s transform;
+  }
+
+.thisSmall{
+	transform: scale(1, 1);
+  	transition: 1s transform;
+  	-webkit-transform: scale(1, 1);
+  	-webkit-transition: 1s transform;
+  }
+
+/*首页 --关于我们 end*/
+
+/*项目列表 star*/
+.page2{margin-top: 92px;}
+.page2 dt{text-align: center;width: 100%;}
+.page2 dd{width: 92%;margin: 0 auto 14px;position: relative;overflow: hidden;}
+.page2 dd img{width: 100%;-webkit-transition: all ease 1s;transition: all ease 1s}
+.page2 dd .opacityBg{width: 100%;height: 100%;background: #000;position: absolute;left: 0;bottom: 0;filter:alpha(opacity=0);opacity: 0;}
+.page2 dt img{width: 70px;}
+
+.outer {height: 100%; overflow: hidden; position: relative;width: 100%; background:ivory;top:0;display: none;} 
+.outer{display: table; position: static;} 
+.middle {position: absolute; top: 50%;width: 100%;} 
+.middle{display: table-cell; vertical-align: middle; } 
+.inner {position: relative; top: -50%;width: 100%;margin: 0 auto;text-align: center;}
+.inner p{text-align: center;width: 100%;color:#fff;}
+
+/*项目列表 end*/
+
+
+/*项目详情 star*/
+.detailTop{margin-top: 130px;}
+.detailTop .contTopLeft{padding-left: 70px;width: 700px;padding-top: 26px;}
+.detailTop .contTopLeft p{font-size: 15px;line-height: 25px;}
+.detailTop .contTopRight{margin-right: 40px;margin-left: 107px;}
+.detailTop .contTopRight img{width: 69px;}
+
+/*项目详情 end*/
+
+
